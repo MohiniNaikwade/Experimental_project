@@ -18,4 +18,18 @@ typedef struct {
     uint16_t length;  // length of frame
 } nic_packet_t;
 
+// Example global structure
+typedef struct {
+    mac_address_t mac_address;
+    uint32_t ip_address;
+    uint32_t subnet_mask;
+    uint32_t gateway;
+
+    nic_status_t nic_status;
+
+    // Add more global settings here
+    uint8_t some_setting;
+    uint16_t another_setting;
+
+} global_config_t;
 #endif // DATATYPE_H

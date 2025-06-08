@@ -12,4 +12,7 @@ void nic_send_packet(const uint8_t* data, uint16_t length);
 // Receive packet (raw frame)
 void nic_receive_packet(uint8_t* buffer, uint16_t* length);
 
+// Global pointer
+extern global_config_t* g_config;
+
 #endif // PROTOTYPE_H
