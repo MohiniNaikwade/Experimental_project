@@ -1,0 +1,6 @@
+{
+    "cmake.generator": "Ninja",
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    "cmake.toolchain": "${workspaceFolder}/cmake/toolchain-arm-none-eabi.cmake",
+    "cmake.configureOnOpen": true
+}
