@@ -29,12 +29,16 @@ set(CMAKE_EXE_LINKER_FLAGS "${MCU_FLAGS} -T${LINKER_SCRIPT} -Wl,--gc-sections -W
 set(SOURCES
     stm32_hal/startup/startup_stm32g4xx.S
     src/main.c
+    src/nic.c
     src/system_stm32g4xx.c
     src/_exit.c
 )
 
 # Include dirs
-include_directories(${CMAKE_SOURCE_DIR}/src)
+include_directories(
+    ${CMAKE_SOURCE_DIR}/include
+    ${CMAKE_SOURCE_DIR}/src
+)
 
 # Target
 add_executable(${PROJECT_NAME} ${SOURCES})

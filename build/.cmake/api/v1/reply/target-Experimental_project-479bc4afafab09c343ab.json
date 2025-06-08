@@ -25,13 +25,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 40,
+				"line" : 44,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 37,
+				"line" : 38,
 				"parent" : 0
 			}
 		]
@@ -47,6 +47,10 @@
 			],
 			"includes" : 
 			[
+				{
+					"backtrace" : 2,
+					"path" : "/Users/prashantsawant/Desktop/Experiments/Projects/Experimental_project/include"
+				},
 				{
 					"backtrace" : 2,
 					"path" : "/Users/prashantsawant/Desktop/Experiments/Projects/Experimental_project/src"
@@ -69,6 +73,10 @@
 			[
 				{
 					"backtrace" : 2,
+					"path" : "/Users/prashantsawant/Desktop/Experiments/Projects/Experimental_project/include"
+				},
+				{
+					"backtrace" : 2,
 					"path" : "/Users/prashantsawant/Desktop/Experiments/Projects/Experimental_project/src"
 				}
 			],
@@ -85,7 +93,8 @@
 			[
 				1,
 				2,
-				3
+				3,
+				4
 			]
 		}
 	],
@@ -127,7 +136,8 @@
 			[
 				1,
 				2,
-				3
+				3,
+				4
 			]
 		}
 	],
@@ -143,6 +153,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 1,
 			"path" : "src/main.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/nic.c",
 			"sourceGroupIndex" : 1
 		},
 		{

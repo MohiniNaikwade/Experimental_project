@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Experimental_project.dir/src/_exit.c.obj.d"
   "CMakeFiles/Experimental_project.dir/src/main.c.obj"
   "CMakeFiles/Experimental_project.dir/src/main.c.obj.d"
+  "CMakeFiles/Experimental_project.dir/src/nic.c.obj"
+  "CMakeFiles/Experimental_project.dir/src/nic.c.obj.d"
   "CMakeFiles/Experimental_project.dir/src/system_stm32g4xx.c.obj"
   "CMakeFiles/Experimental_project.dir/src/system_stm32g4xx.c.obj.d"
   "CMakeFiles/Experimental_project.dir/stm32_hal/startup/startup_stm32g4xx.S.obj"

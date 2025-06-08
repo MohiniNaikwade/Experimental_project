@@ -99,10 +99,24 @@ CMakeFiles/Experimental_project.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Experimental_project.dir/src/main.c.s"
 	/Applications/ARM/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/prashantsawant/Desktop/Experiments/Projects/Experimental_project/src/main.c -o CMakeFiles/Experimental_project.dir/src/main.c.s
 
+CMakeFiles/Experimental_project.dir/src/nic.c.obj: CMakeFiles/Experimental_project.dir/flags.make
+CMakeFiles/Experimental_project.dir/src/nic.c.obj: /Users/prashantsawant/Desktop/Experiments/Projects/Experimental_project/src/nic.c
+CMakeFiles/Experimental_project.dir/src/nic.c.obj: CMakeFiles/Experimental_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/prashantsawant/Desktop/Experiments/Projects/Experimental_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Experimental_project.dir/src/nic.c.obj"
+	/Applications/ARM/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Experimental_project.dir/src/nic.c.obj -MF CMakeFiles/Experimental_project.dir/src/nic.c.obj.d -o CMakeFiles/Experimental_project.dir/src/nic.c.obj -c /Users/prashantsawant/Desktop/Experiments/Projects/Experimental_project/src/nic.c
+
+CMakeFiles/Experimental_project.dir/src/nic.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Experimental_project.dir/src/nic.c.i"
+	/Applications/ARM/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/prashantsawant/Desktop/Experiments/Projects/Experimental_project/src/nic.c > CMakeFiles/Experimental_project.dir/src/nic.c.i
+
+CMakeFiles/Experimental_project.dir/src/nic.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Experimental_project.dir/src/nic.c.s"
+	/Applications/ARM/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/prashantsawant/Desktop/Experiments/Projects/Experimental_project/src/nic.c -o CMakeFiles/Experimental_project.dir/src/nic.c.s
+
 CMakeFiles/Experimental_project.dir/src/system_stm32g4xx.c.obj: CMakeFiles/Experimental_project.dir/flags.make
 CMakeFiles/Experimental_project.dir/src/system_stm32g4xx.c.obj: /Users/prashantsawant/Desktop/Experiments/Projects/Experimental_project/src/system_stm32g4xx.c
 CMakeFiles/Experimental_project.dir/src/system_stm32g4xx.c.obj: CMakeFiles/Experimental_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/prashantsawant/Desktop/Experiments/Projects/Experimental_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Experimental_project.dir/src/system_stm32g4xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/prashantsawant/Desktop/Experiments/Projects/Experimental_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Experimental_project.dir/src/system_stm32g4xx.c.obj"
 	/Applications/ARM/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Experimental_project.dir/src/system_stm32g4xx.c.obj -MF CMakeFiles/Experimental_project.dir/src/system_stm32g4xx.c.obj.d -o CMakeFiles/Experimental_project.dir/src/system_stm32g4xx.c.obj -c /Users/prashantsawant/Desktop/Experiments/Projects/Experimental_project/src/system_stm32g4xx.c
 
 CMakeFiles/Experimental_project.dir/src/system_stm32g4xx.c.i: cmake_force
@@ -116,7 +130,7 @@ CMakeFiles/Experimental_project.dir/src/system_stm32g4xx.c.s: cmake_force
 CMakeFiles/Experimental_project.dir/src/_exit.c.obj: CMakeFiles/Experimental_project.dir/flags.make
 CMakeFiles/Experimental_project.dir/src/_exit.c.obj: /Users/prashantsawant/Desktop/Experiments/Projects/Experimental_project/src/_exit.c
 CMakeFiles/Experimental_project.dir/src/_exit.c.obj: CMakeFiles/Experimental_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/prashantsawant/Desktop/Experiments/Projects/Experimental_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Experimental_project.dir/src/_exit.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/prashantsawant/Desktop/Experiments/Projects/Experimental_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Experimental_project.dir/src/_exit.c.obj"
 	/Applications/ARM/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Experimental_project.dir/src/_exit.c.obj -MF CMakeFiles/Experimental_project.dir/src/_exit.c.obj.d -o CMakeFiles/Experimental_project.dir/src/_exit.c.obj -c /Users/prashantsawant/Desktop/Experiments/Projects/Experimental_project/src/_exit.c
 
 CMakeFiles/Experimental_project.dir/src/_exit.c.i: cmake_force
@@ -131,6 +145,7 @@ CMakeFiles/Experimental_project.dir/src/_exit.c.s: cmake_force
 Experimental_project_OBJECTS = \
 "CMakeFiles/Experimental_project.dir/stm32_hal/startup/startup_stm32g4xx.S.obj" \
 "CMakeFiles/Experimental_project.dir/src/main.c.obj" \
+"CMakeFiles/Experimental_project.dir/src/nic.c.obj" \
 "CMakeFiles/Experimental_project.dir/src/system_stm32g4xx.c.obj" \
 "CMakeFiles/Experimental_project.dir/src/_exit.c.obj"
 
@@ -139,11 +154,12 @@ Experimental_project_EXTERNAL_OBJECTS =
 
 Experimental_project: CMakeFiles/Experimental_project.dir/stm32_hal/startup/startup_stm32g4xx.S.obj
 Experimental_project: CMakeFiles/Experimental_project.dir/src/main.c.obj
+Experimental_project: CMakeFiles/Experimental_project.dir/src/nic.c.obj
 Experimental_project: CMakeFiles/Experimental_project.dir/src/system_stm32g4xx.c.obj
 Experimental_project: CMakeFiles/Experimental_project.dir/src/_exit.c.obj
 Experimental_project: CMakeFiles/Experimental_project.dir/build.make
 Experimental_project: CMakeFiles/Experimental_project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/prashantsawant/Desktop/Experiments/Projects/Experimental_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable Experimental_project"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/prashantsawant/Desktop/Experiments/Projects/Experimental_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable Experimental_project"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Experimental_project.dir/link.txt --verbose=$(VERBOSE)
 	/Applications/ARM/bin/arm-none-eabi-objcopy -O binary Experimental_project Experimental_project.bin
 	/Applications/ARM/bin/arm-none-eabi-objcopy -O ihex Experimental_project Experimental_project.hex

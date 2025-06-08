@@ -5,13 +5,13 @@
 # compile C with /Applications/ARM/bin/arm-none-eabi-gcc
 ASM_DEFINES = 
 
-ASM_INCLUDES = -I/Users/prashantsawant/Desktop/Experiments/Projects/Experimental_project/src
+ASM_INCLUDES = -I/Users/prashantsawant/Desktop/Experiments/Projects/Experimental_project/include -I/Users/prashantsawant/Desktop/Experiments/Projects/Experimental_project/src
 
 ASM_FLAGS = -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffreestanding -fdata-sections -ffunction-sections -x assembler-with-cpp
 
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/prashantsawant/Desktop/Experiments/Projects/Experimental_project/src
+C_INCLUDES = -I/Users/prashantsawant/Desktop/Experiments/Projects/Experimental_project/include -I/Users/prashantsawant/Desktop/Experiments/Projects/Experimental_project/src
 
 C_FLAGS = -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffreestanding -fdata-sections -ffunction-sections -Wall -O0 -g3 -std=gnu11
 

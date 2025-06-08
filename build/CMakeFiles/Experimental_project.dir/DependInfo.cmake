@@ -14,6 +14,7 @@ set(CMAKE_ASM_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
+  "/Users/prashantsawant/Desktop/Experiments/Projects/Experimental_project/include"
   "/Users/prashantsawant/Desktop/Experiments/Projects/Experimental_project/src"
   )
 
@@ -21,6 +22,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/prashantsawant/Desktop/Experiments/Projects/Experimental_project/src/_exit.c" "CMakeFiles/Experimental_project.dir/src/_exit.c.obj" "gcc" "CMakeFiles/Experimental_project.dir/src/_exit.c.obj.d"
   "/Users/prashantsawant/Desktop/Experiments/Projects/Experimental_project/src/main.c" "CMakeFiles/Experimental_project.dir/src/main.c.obj" "gcc" "CMakeFiles/Experimental_project.dir/src/main.c.obj.d"
+  "/Users/prashantsawant/Desktop/Experiments/Projects/Experimental_project/src/nic.c" "CMakeFiles/Experimental_project.dir/src/nic.c.obj" "gcc" "CMakeFiles/Experimental_project.dir/src/nic.c.obj.d"
   "/Users/prashantsawant/Desktop/Experiments/Projects/Experimental_project/src/system_stm32g4xx.c" "CMakeFiles/Experimental_project.dir/src/system_stm32g4xx.c.obj" "gcc" "CMakeFiles/Experimental_project.dir/src/system_stm32g4xx.c.obj.d"
   )
 

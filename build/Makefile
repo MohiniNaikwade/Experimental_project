@@ -177,6 +177,30 @@ src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Experimental_project.dir/build.make CMakeFiles/Experimental_project.dir/src/main.c.s
 .PHONY : src/main.c.s
 
+src/nic.obj: src/nic.c.obj
+.PHONY : src/nic.obj
+
+# target to build an object file
+src/nic.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Experimental_project.dir/build.make CMakeFiles/Experimental_project.dir/src/nic.c.obj
+.PHONY : src/nic.c.obj
+
+src/nic.i: src/nic.c.i
+.PHONY : src/nic.i
+
+# target to preprocess a source file
+src/nic.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Experimental_project.dir/build.make CMakeFiles/Experimental_project.dir/src/nic.c.i
+.PHONY : src/nic.c.i
+
+src/nic.s: src/nic.c.s
+.PHONY : src/nic.s
+
+# target to generate assembly for a file
+src/nic.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Experimental_project.dir/build.make CMakeFiles/Experimental_project.dir/src/nic.c.s
+.PHONY : src/nic.c.s
+
 src/system_stm32g4xx.obj: src/system_stm32g4xx.c.obj
 .PHONY : src/system_stm32g4xx.obj
 
@@ -224,6 +248,9 @@ help:
 	@echo "... src/main.obj"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/nic.obj"
+	@echo "... src/nic.i"
+	@echo "... src/nic.s"
 	@echo "... src/system_stm32g4xx.obj"
 	@echo "... src/system_stm32g4xx.i"
 	@echo "... src/system_stm32g4xx.s"
